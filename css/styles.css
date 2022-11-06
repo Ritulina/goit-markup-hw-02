@@ -1,0 +1,15 @@
+.ref-menu {
+   list-style: none; 
+   cursor: pointer;
+   text-decoration: none;
+}
+.images{ 
+   list-style: none;
+   cursor: pointer;
+   text-decoration: none;
+}
+.features{
+   list-style: none;
+   cursor: pointer;
+   text-decoration: none;
+}
