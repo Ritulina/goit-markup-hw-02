@@ -2,15 +2,11 @@
    --blue-color: #2196F3;
    --white-color: #FFFFFF;
    --p-color: #757575;
-   --h-color: #212121;
-   --bgd-color: #2F303A;
    --btn-bgd-color: #F5F4FA;
    --letter-spacing-02: 0.02em;
    --letter-spacing-03: 0.03em;
-   --letter-spacing-06: 0.06em;
    --line-height-16px-14px: 1.14;
    --line-height-24px-14px: 1.71;
-   --line-height-42px-36px: 1.17;
    --line-height-31px-26px: 1.19;
 }
 body{
@@ -62,7 +58,7 @@ footer{
    line-height: var(--line-height-31px-26px);
    font-size: 26px;
 }
-.ref-menu{
+.menu-container{
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
@@ -70,72 +66,34 @@ footer{
    display: inline-block;
    line-height: var(--line-height-16px-14px);   
 }
-.ref-menu .ref-menu-studia{
+.menu-container .menu {
    color: var(--h-color);
 }
-.ref-menu .ref-menu-studia:hover,
-.ref-menu .ref-menu-studia:focus {
+.menu-container .menu:hover,
+.menu-container .menu:focus {
    color: var(--blue-color);
 }
-.ref-menu .ref-menu-studia:active {
-   color: var(--blue-color);
-}
-
-
-.ref-menu .ref-menu-portfolio {
-   color: var(--h-color);
-}
-.ref-menu .ref-menu-portfolio:hover,
-.ref-menu .ref-menu-portfolio:focus {
-   color: var(--blue-color);
-}
- .ref-menu .ref-menu-portfolio:active {
-  color: var(--blue-color);
-}
-
-
-.ref-menu .ref-menu-contacts {
-   color: var(--h-color);
-}
-.ref-menu .ref-menu-contacts:hover,
-.ref-menu .ref-menu-contacts:focus {
-   color: var(--blue-color);
-}
-.ref-menu .ref-menu-contacts:active {
+.menu-container .menu:active {
    color: var(--blue-color);
 }
 
-
-.ref-contacts{
+.contacts-container {
    display: inline-block;
    font-size: 14px;
    line-height: var(--line-height-16px-14px);
 }
-.ref-contacts .ref-contacts-email{
+.contacts-container .contact {
    color: var(--p-color);
 }
-.ref-contacts .ref-contacts-email:hover,
-.ref-contacts .ref-contacts-email:focus {
+.contacts-container .contact:hover,
+.contacts-container .contact:focus {
    color: var(--blue-color);
 }
-.ref-contacts .ref-contacts-email:active {
-   color: var(--blue-color);
-}
-
-
-.ref-contacts .ref-contacts-number {
-   color: var(--p-color);
-}
-.ref-contacts .ref-contacts-number:hover,
-.ref-contacts .ref-contacts-number:focus {
-   color: var(--blue-color);
-}
-.ref-contacts .ref-contacts-number:active {
+.contacts-container .contact:active {
    color: var(--blue-color);
 }
 
-
-.buttons .button {
+.buttons .button {   
    color: var(--h-color-);
    background: var(--btn-bgd-color);
    border: none;
@@ -152,11 +110,6 @@ footer{
    border: none;
 }
                         
-
-
-
-
-
 .footer-ref-address{
    color: var(--white-color);
    font-style: normal;
@@ -175,29 +128,15 @@ footer{
    line-height: var(--line-height-24px-14px);
    font-style: normal;
 }
-.footer-ref .footer-ref-email{
+.footer-ref .ref{
    color: var(--white-color);
    color: rgba(255, 255, 255, 0.6);
 }
-.footer-ref .footer-ref-email:hover, 
-.footer-ref .footer-ref-email:focus {
+.footer-ref .ref:hover, 
+.footer-ref .ref:focus {
    color: var(--blue-color);
 }
-.footer-ref .footer-ref-email:active {
-   color: var(--blue-color);
-}
-
-
-.footer-ref .footer-ref-number {
-   color: var(--white-color);
-   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-ref .footer-ref-number:hover,
-.footer-ref .footer-ref-number:focus {
-   color: var(--blue-color);
-}
-.footer-ref .footer-ref-email:active {
+.footer-ref .ref:active {
    color: var(--blue-color);
 }
 
