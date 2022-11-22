@@ -11,41 +11,133 @@
    --line-height-24px-14px: 1.71;
    --line-height-42px-36px: 1.17;
    --line-height-31px-26px: 1.19;
+   --line-height-30px-16px: 1.88;
+   --line-height-19px-16px: 1.19;
+   --line-height-60px-44px: 1.36;
 }
-
+.header-logo-web {
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   color: var(--blue-color);
+   font-weight: 700;
+   text-decoration: none;
+   line-height: var(--line-height-31px-26px);
+   letter-spacing: var(--letter-spacing-03);
+}
+.header-logo-studio {
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   color: #000000;
+   font-weight: 700;
+   text-decoration: none;
+   line-height: var(--line-height-31px-26px);
+   letter-spacing: var(--letter-spacing-03);  
+}
+.menu-container {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: var(--letter-spacing-02);
+   display: inline-block;
+   line-height: var(--line-height-16px-14px);
+}
+.menu-container .menu {
+   color: var(--h-color);
+}
+.menu-container .menu:hover,
+.menu-container .menu:focus {
+   color: var(--blue-color);
+}
+.menu-container .menu:active {
+   color: var(--blue-color);
+}
+.contacts-container {
+   display: inline-block;
+   font-size: 14px;
+   line-height: var(--line-height-16px-14px);
+   font-weight: 500;
+   letter-spacing: var(--letter-spacing-02);
+}
+.contacts-container .contact {
+   color: var(--p-color);
+}
+.contacts-container .contact:hover,
+.contacts-container .contact:focus {
+   color: var(--blue-color);
+}
+.contacts-container .contact:active {
+   color: var(--blue-color);
+}
 body{
    font-family: 'Roboto', sans-serif;
    letter-spacing: var(--letter-spacing-03);
    font-size: 14px;
    color: var(--h-color);
 }
-p{
-   color: var(--p-color);
-   letter-spacing: var(--letter-spacing-03);
-   line-height: var(--line-height-24px-14px);
-   font-size: 14px;
+.main-header {
+   background: var(--bgd-color);
 }
-h1 {
+.main-header-title {
+   font-weight: 900;
+   font-size: 44px;
    color: var(--white-color);
    letter-spacing: var(--letter-spacing-06);
    text-transform: uppercase;
-   line-height: 1.36;
-   font-size: 44px;
-   font-weight: 900;
+   line-height: var(--line-height-60px-44px); 
 }
-h2 {
-   color: var(--h-color);
-   letter-spacing: var(--letter-spacing-03);
-   line-height: var(--line-height-42px-36px);
-   font-size: 36px;
+.main-header-button {
+   font-weight: 700;
+   font-size: 16px;
+   background: var(--blue-color);
+   color: var(--white-color);
+   letter-spacing: var(--letter-spacing-06);
+   line-height: var(--line-height-30px-16px);
 }
-h3{
-   color: var(--h-color);
-   letter-spacing: var(--letter-spacing-03);
-   text-transform: uppercase;
-   line-height: var(--line-height-16px-14px);
+.feature-header{
    font-weight: 700;
    font-size: 14px;
+   line-height: var(--line-height-16px-14px);
+   letter-spacing: var(--letter-spacing-03);
+   text-transform: uppercase;
+   color: var(--h-color);
+}
+.feature-descr {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: var(--line-height-24px-14px);
+   letter-spacing: var(--letter-spacing-03);
+   color: var(--p-color);
+}
+h2 {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: var(--line-height-42px-36px);
+   letter-spacing: var(--letter-spacing-03);
+   color: var(--h-color);
+}
+.images-container {
+   display: inline-block;
+}
+.team {
+   background: #F5F4FA;
+}
+.team-name {
+   text-transform: none;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: var(--line-height-19px-16px);
+   letter-spacing: var(--letter-spacing-03);
+}
+.team-descr {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: var(--line-height-19px-16px);
+   letter-spacing: var(--letter-spacing-03);
+   color: var(--p-color);
+}
+.team-container {
+   background: var(--white-color);
+   display: inline-block;
 }
 li{
    list-style: none;
@@ -57,93 +149,22 @@ a{
 button {
    cursor: pointer;
 }
-.main-header-button{
-   background: var(--blue-color);
-   color: var(--white-color);
-   letter-spacing: var(--letter-spacing-06);
-   font-weight: 700;
-   font-size: 16px;
-}
+
 footer{
    background: var(--bgd-color);
 }
-.header-logo-web{
-   font-family: 'Raleway', sans-serif;
-   color: var(--blue-color);
+.footer-logo-studio {
    font-weight: 700;
-   text-decoration: none;
-   line-height: var(--line-height-31px-26px);
    font-size: 26px;
-}
-.header-logo-studio {
-   color: #000000;
-   font-weight: 700;
-   text-decoration: none;
-   line-height: var(--line-height-31px-26px);
-   font-size: 26px;
-}
-.menu-container{
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      letter-spacing: var(--letter-spacing-02);
-      display: inline-block;
-      line-height: var(--line-height-16px-14px);
-      
-}
-
-
-.menu-container .menu {
-   color: var(--h-color);
-}
-.menu-container .menu:hover,
-.menu-container .menu:focus {
-   color: var(--blue-color);
-}
- .menu-container .menu:active {
-  color: var(--blue-color);
-}
-
-
-.contacts-container{
-   display: inline-block;
-   font-size: 14px;
-   line-height: var(--line-height-16px-14px);
-}
-.contacts-container .contact{
-   color: var(--p-color);
-}
-.contacts-container .contact:hover,
-.contacts-container .contact:focus {
-   color: var(--blue-color);
-}
-.contacts-container .contact:active {
-   color: var(--blue-color);
-}
-
-
-.main-header{
-   background: var(--bgd-color);
-}
-
-.images-container{
-   display: inline-block;
-}
-.features-container .p{
-   font-size: 16px;
-}
-
-.team{
-   background: #F5F4FA;
-}
-.team-container{
-   background: var(--white-color);
-   display: inline-block;
-}
-
-.footer-ref-address{
    color: var(--white-color);
-   font-style: normal;
+   text-decoration: none;
+   line-height: var(--line-height-31px-26px);
+   letter-spacing: var(--letter-spacing-03);
+}
+.footer-ref-address{
+   font-weight: 400;
+   color: var(--white-color);
+   letter-spacing: var(--letter-spacing-03);
    line-height: var(--line-height-24px-14px);
 }
 .footer-ref-address:hover ,
@@ -153,8 +174,6 @@ footer{
 .footer-ref-address:active {
    color: var(--blue-color);
 }
-
-
 .footer-ref{
    line-height: var(--line-height-24px-14px);
    font-style: normal;
@@ -169,14 +188,4 @@ footer{
 }
 .footer-ref .ref:active {
    color: var(--blue-color);
-}
-
-
-
-.footer-logo-studio{
-   color: var(--white-color);
-   font-weight: 700;
-   text-decoration: none;
-   line-height: var(--line-height-31px-26px);
-   font-size: 26px;
 }
