@@ -38,6 +38,9 @@ body {
    line-height: var(--line-height-31px-26px);
    letter-spacing: var(--letter-spacing-03);
 }
+.menu {
+   text-decoration: none;
+}
 .menu-container {
    font-style: normal;
    font-weight: 500;
@@ -56,6 +59,9 @@ body {
 .menu-container .menu:active {
    color: var(--blue-color);
 }
+.contact {
+   text-decoration: none;
+}
 .contacts-container {
    display: inline-block;
    font-size: 14px;
@@ -73,7 +79,8 @@ body {
 .contacts-container .contact:active {
    color: var(--blue-color);
 }
-button {
+.button {
+   font-family: 'Roboto';
    cursor: pointer;
    font-weight: 500;
    font-size: 16px;
